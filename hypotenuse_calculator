@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cmath>
+
+int main(){
+
+
+double a;  //declaration
+double b;  //declaration
+
+
+std::cout << "Let's calulate the hypotenuse of a triangle!"<<'\n';
+std::cout<<"the value of a is: ";
+std::cin>>a;  //user input
+
+std::cout<<"the value of b is: ";
+std::cin>>b;  //user input
+
+double c = sqrt(pow(a, 2) + pow(b, 2));  //assignment
+
+std::cout<<"The hypotenuse of triangle with a = "<<a<<" and b = "<<b<<" is c = "<<c;
+
+    return 0;
+}
